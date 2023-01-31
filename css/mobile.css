@@ -1,0 +1,208 @@
+/* mobile */
+
+:root {
+  --color-primary: #339af0;
+  --color-text: #868e96;
+  --color-boder-table: #dee2e6;
+}
+@media only screen and (max-width: 767.98px) {
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .section-title {
+    font-size: 23px;
+  }
+
+  /* banner */
+
+  .banner-info {
+    font-size: 19px;
+  }
+
+  .info-first span {
+    font-size: 10px;
+  }
+
+  #banner {
+    background-image: linear-gradient(
+        rgb(34, 34, 34, 0.6),
+        rgb(34, 34, 34, 0.6)
+      ),
+      url(../images/banner.jpg);
+    background-size: cover;
+    color: #f7f7f7;
+    position: relative;
+    margin-bottom: -74px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+  }
+
+  /* navbar */
+
+  .container-nav {
+    width: auto;
+  }
+
+  .nav-info img {
+    display: none;
+  }
+
+  #nav-bar {
+    margin: 75px;
+    border-top: none;
+    text-align: left;
+  }
+
+  .ul-nav {
+    flex-direction: column;
+    border: none;
+    /* align-items: flex-end; */
+    display: block;
+    width: auto;
+    padding-left: 0px;
+    justify-content: center;
+  }
+
+  .ul-nav > * {
+    text-align: left;
+  }
+
+  .link {
+    padding: 7px 0;
+    /* margin: 5px 0px; */
+  }
+
+  .link:nth-child(1),
+  .link:nth-child(2),
+  .link:nth-child(4),
+  .link:nth-child(5) {
+    border: none;
+  }
+
+  .link a:link {
+    padding: 0;
+  }
+
+  .icon-nav {
+    top: 0;
+  }
+
+  /* section one */
+
+  #target,
+  #peronal-info {
+    padding: 50px;
+    height: 350px;
+  }
+
+  /* section two */
+  /* .container-two {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 40px auto;
+  } */
+
+  .sub-job-info-1,
+  .sub-job-info-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-job-info-2 {
+    margin-top: 0;
+  }
+
+  .container-ex,
+  .container-skill,
+  .container-lang,
+  .container-active,
+  .container-edu,
+  .container-interests {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .title-section-two h1 {
+    margin: 50px -65px;
+    padding-left: 43px;
+  }
+
+  .ic-toolbox {
+    padding-left: 95px;
+  }
+
+  /* section three */
+
+  .cer-all {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cer-one,
+  .cer-two,
+  .cer-three {
+    flex-direction: column;
+    gap: 10px;
+    border: none;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .img-cer-two {
+    margin-left: 0px;
+  }
+
+  #certificate {
+    padding: 30px 50px;
+  }
+
+  .container-cer img {
+    height: auto;
+    width: auto;
+  }
+
+  .img-cer-three,
+  .text-cer-three {
+    margin-top: 0px;
+  }
+
+  /* section four */
+
+  #project {
+    padding: 40px 50px;
+  }
+
+  .sub-title-project {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 300px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .title-project {
+    padding: 10px 20px;
+  }
+
+  .title-project > p {
+    margin-top: 15px;
+  }
+
+  .time-project {
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+  }
+
+  .time-project-1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
